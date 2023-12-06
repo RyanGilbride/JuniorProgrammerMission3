@@ -19,10 +19,8 @@ public abstract class Building : MonoBehaviour,
 
     [Tooltip("-1 is infinite")]
     public int InventorySpace = -1;
-    
     protected List<InventoryEntry> m_Inventory = new List<InventoryEntry>();
     public List<InventoryEntry> Inventory => m_Inventory;
-
     protected int m_CurrentAmount = 0;
 
     //return 0 if everything fit in the inventory, otherwise return the left over amount
