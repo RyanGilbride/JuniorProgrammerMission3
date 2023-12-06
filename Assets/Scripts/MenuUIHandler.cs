@@ -53,5 +53,4 @@ public class MenuUIHandler : MonoBehaviour
         MainManager.Instance.LoadColor();
         ColorPicker.SelectColor(MainManager.Instance.TeamColor);
     }
-
 }
